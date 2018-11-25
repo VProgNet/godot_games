@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+
+[node name="TouchControl" type="CanvasLayer"]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+position = Vector2( 11.6312, 273.979 )
+normal = ExtResource( 1 )
+action = "ui_left"
+
+[node name="TouchScreenButton4" type="TouchScreenButton" parent="."]
+position = Vector2( 89.0954, 272.579 )
+normal = ExtResource( 1 )
+action = "ui_right"
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="."]
+position = Vector2( 497.557, 261.056 )
+scale = Vector2( 1.24232, 1.20193 )
+normal = ExtResource( 1 )
+action = "ui_jump"
+
